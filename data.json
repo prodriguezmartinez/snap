@@ -9,4268 +9,209 @@
         {
             "sprite": 1,
             "script": 1,
-            "block": "hide",
+            "block": "doStopThis",
             "num_block": 2
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "setColor",
+            "block": "doSetVar",
             "num_block": 3
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "setPenHSVA",
+            "block": "hide",
             "num_block": 4
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "doForever",
+            "block": "clear",
             "num_block": 5
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "doWarp",
+            "block": "up",
             "num_block": 6
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "doSetVar",
+            "block": "gotoXY",
             "num_block": 7
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "getPenAttribute",
+            "block": "down",
             "num_block": 8
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "doSetVar",
+            "block": "fork",
             "num_block": 9
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "reportAudio",
+            "block": "reifyScript",
             "num_block": 10
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "doSetVar",
+            "block": "doForever",
             "num_block": 11
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "reportModulus",
+            "block": "changePenHSVA",
             "num_block": 12
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "reportAudio",
+            "block": "fork",
             "num_block": 13
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "clear",
+            "block": "reifyScript",
             "num_block": 14
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "doFor",
+            "block": "doForever",
             "num_block": 15
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "gotoXY",
+            "block": "doChangeVar",
             "num_block": 16
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "setHeading",
+            "block": "doIf",
             "num_block": 17
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "reportProduct",
+            "block": "reportGreaterThan",
             "num_block": 18
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "forward",
+            "block": "doSetVar",
             "num_block": 20
         },
         {
             "sprite": 1,
             "script": 1,
-            "block": "down",
+            "block": "doSend",
             "num_block": 21
         },
         {
             "sprite": 1,
-            "script": 1,
-            "block": "setSize",
+            "script": 2,
+            "block": "receiveMessage",
             "num_block": 22
         },
         {
             "sprite": 1,
-            "script": 1,
-            "block": "forward",
+            "script": 2,
+            "block": "doForever",
             "num_block": 23
         },
         {
             "sprite": 1,
-            "script": 1,
-            "block": "up",
+            "script": 2,
+            "block": "reportNewList",
             "num_block": 24
         },
         {
             "sprite": 1,
-            "script": 1,
-            "block": "gotoXY",
+            "script": 2,
+            "block": "reportBoolean",
             "num_block": 25
         },
         {
             "sprite": 1,
-            "script": 1,
-            "block": "setSize",
+            "script": 2,
+            "block": "reportBoolean",
             "num_block": 26
         },
         {
             "sprite": 1,
-            "script": 1,
-            "block": "down",
+            "script": 2,
+            "block": "reportBoolean",
             "num_block": 27
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setHeading",
-            "num_block": 28
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "reportProduct",
-            "num_block": 29
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "forward",
-            "num_block": 31
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setSize",
-            "num_block": 32
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setColor",
-            "num_block": 33
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "forward",
-            "num_block": 34
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setSize",
-            "num_block": 35
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "up",
-            "num_block": 36
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setColor",
-            "num_block": 37
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setPenHSVA",
-            "num_block": 38
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "doSetVar",
-            "num_block": 40
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "getPenAttribute",
-            "num_block": 41
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "doFor",
-            "num_block": 42
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "gotoXY",
-            "num_block": 43
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setHeading",
-            "num_block": 44
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "reportProduct",
-            "num_block": 45
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "reportQuotient",
-            "num_block": 47
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "forward",
-            "num_block": 48
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "down",
-            "num_block": 49
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "forward",
-            "num_block": 50
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "reportProduct",
-            "num_block": 51
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "reportListItem",
-            "num_block": 52
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setSize",
-            "num_block": 55
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "forward",
-            "num_block": 56
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "up",
-            "num_block": 57
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "setSize",
-            "num_block": 58
-        },
-        {
-            "sprite": 1,
-            "script": 1,
-            "block": "changePenHSVA",
-            "num_block": 59
         }
     ],
     "variables": [
         {
-            "variable": "spec",
+            "variable": "count",
             "number_var": 1
-        },
-        {
-            "variable": "note",
-            "number_var": 2
-        },
-        {
-            "variable": "pencolor",
-            "number_var": 3
         }
     ],
     "block-definition": [
         {
-            "name": "$brush set pen to crayon %'which'",
+            "name": "%'thing' changed? $nl",
             "number": 1
         },
         {
-            "name": "set pen color to r: %'r' g: %'g' b: %'b'",
+            "name": "ignore %'thing'",
             "number": 2
         },
         {
-            "name": "set pen color to h: %'h' s: %'s' v: %'v'",
+            "name": "%'id' %'input'",
             "number": 3
         },
         {
-            "name": "RGB color",
+            "name": "impossible whirl $nl code %'code' $nl direction %'direction' $nl turn %'turn'",
             "number": 4
         },
         {
-            "name": "HSV color",
+            "name": "binary? %'n'",
             "number": 5
         },
         {
-            "name": "$brush set pen %'dimension' to %'value'",
+            "name": "%'what' items of %'data' have %'pred'",
             "number": 6
         },
         {
-            "name": "mmap %'function' over %'lists'",
+            "name": "number %'num' in the fibonacci sequence",
             "number": 7
         },
         {
-            "name": "\u2710 update HSL",
+            "name": "report error %'msg'",
             "number": 8
-        },
-        {
-            "name": "min %'a' %'b'",
-            "number": 9
-        },
-        {
-            "name": "\u2710 update HSV",
-            "number": 10
-        },
-        {
-            "name": "%'x'",
-            "number": 11
-        },
-        {
-            "name": "$brush pen %'dimension'",
-            "number": 12
-        },
-        {
-            "name": "\u2710 hexchar %'nybble'",
-            "number": 13
-        },
-        {
-            "name": "$brush change pen %'dimension' by %'amount'",
-            "number": 14
-        },
-        {
-            "name": "error %'msg'",
-            "number": 15
-        },
-        {
-            "name": "\u2710 make integer RGB",
-            "number": 16
-        },
-        {
-            "name": "substring of %'string' before %'marker'",
-            "number": 17
-        },
-        {
-            "name": "use case-independent comparisons %'tf'",
-            "number": 18
-        },
-        {
-            "name": "catch %'tag' %'action'",
-            "number": 19
-        },
-        {
-            "name": "throw %'cont'",
-            "number": 20
-        },
-        {
-            "name": "ignore %'x'",
-            "number": 21
-        },
-        {
-            "name": "\u2710 subset %'pred' %'data' %'catchtag' %'result'",
-            "number": 22
-        },
-        {
-            "name": "\u2710 no spaces %'text'",
-            "number": 23
-        },
-        {
-            "name": "create %'scope' var %'names'",
-            "number": 24
-        },
-        {
-            "name": "does var %'name' exist?",
-            "number": 25
-        },
-        {
-            "name": "\u2710 initialize variables",
-            "number": 26
-        },
-        {
-            "name": "$flash reverse %'list'",
-            "number": 27
-        },
-        {
-            "name": "$flash analyze %'data'",
-            "number": 28
-        },
-        {
-            "name": "$flash group %'data' by %'fn'",
-            "number": 29
-        },
-        {
-            "name": "$flash sort %'data' by %'fn'",
-            "number": 30
-        },
-        {
-            "name": "histogram of %'data' from: %'floor' to: %'ceiling' interval: %'interval'",
-            "number": 31
-        },
-        {
-            "name": "histogram of %'data' grouped by: %'key' from: %'floor' to: %'ceiling' interval: %'interval'",
-            "number": 32
-        },
-        {
-            "name": "fill %'data' key: %'key' from: %'floor' to: %'ceiling' interval: %'interval' with: %'generator'",
-            "number": 33
-        },
-        {
-            "name": "pipe %'value' $arrowRight %'pipe'",
-            "number": 34
-        },
-        {
-            "name": "%'text' $arrowRight lower case",
-            "number": 35
-        },
-        {
-            "name": "plot %'data' bars at x: %'left' y: %'bottom' width: %'width' height: %'height'",
-            "number": 36
-        },
-        {
-            "name": "sum %'nums'",
-            "number": 37
-        },
-        {
-            "name": "product %'nums'",
-            "number": 38
-        },
-        {
-            "name": "all of %'preds'",
-            "number": 39
-        },
-        {
-            "name": "any of %'preds'",
-            "number": 40
         }
     ],
-    "$brush set pen to crayon %'which'": [
+    "%'thing' changed? $nl": [
         {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doDeclareVariables"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportModulus"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        }
-    ],
-    "set pen color to r: %'r' g: %'g' b: %'b'": [
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "set pen color to h: %'h' s: %'s' v: %'v'": [
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "RGB color": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "HSV color": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "$brush set pen %'dimension' to %'value'": [
-        {
-            "block": "doDeclareVariables"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportListContainsItem"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportModulus"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportListContainsItem"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportListContainsItem"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "setSize"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportListContainsItem"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reifyScript"
-        },
-        {
-            "block": "reportRound"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reifyScript"
-        },
-        {
-            "block": "reportRound"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reifyScript"
-        },
-        {
-            "block": "reportRound"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportListContainsItem"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportModulus"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doUntil"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doChangeVar"
-        },
-        {
-            "block": "doChangeVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reifyScript"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportRound"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportModulus"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMonadic"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportModulus"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMonadic"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reifyScript"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportRound"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "getPenAttribute"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "getPenAttribute"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "doReplaceInList"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "setPenHSVA"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportIsA"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportUnicode"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "reportUnicode"
-        },
-        {
-            "block": "reportUnicode"
-        },
-        {
-            "block": "reportTextSplit"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportConcatenatedLists"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportIsA"
-        },
-        {
-            "block": "reportFindFirst"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportOr"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "doRepeat"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportCONS"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportIsA"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportIsA"
-        },
-        {
-            "block": "reportLetter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "reportCombine"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "reportCombine"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportIsA"
-        },
-        {
-            "block": "reportLetter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "reportCombine"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "reportCombine"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportJoinWords"
-        }
-    ],
-    "mmap %'function' over %'lists'": [
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportListIsEmpty"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportCONS"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportCDR"
-        }
-    ],
-    "\u2710 update HSL": [
-        {
-            "block": "doDeclareVariables"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportNot"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportOr"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportOr"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportQuotient"
-        }
-    ],
-    "min %'a' %'b'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportLessThan"
-        }
-    ],
-    "\u2710 update HSV": [
-        {
-            "block": "doDeclareVariables"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportQuotient"
-        }
-    ],
-    "%'x'": [
-        {
-            "block": "doReport"
-        }
-    ],
-    "$brush pen %'dimension'": [
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "getPenAttribute"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "getPenAttribute"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "getPenAttribute"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "getPenAttribute"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "getPenAttribute"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportCombine"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "reportMonadic"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportModulus"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportRound"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doReport"
-        }
-    ],
-    "\u2710 hexchar %'nybble'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportIfElse"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "reportUnicodeAsLetter"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportUnicode"
-        },
-        {
-            "block": "reportDifference"
-        }
-    ],
-    "$brush change pen %'dimension' by %'amount'": [
-        {
-            "block": "doDeclareVariables"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportIsA"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportIsA"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "reportJoinWords"
-        }
-    ],
-    "error %'msg'": [
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "\u2710 make integer RGB": [
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reifyScript"
-        },
-        {
-            "block": "reportMap"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportRound"
-        }
-    ],
-    "substring of %'string' before %'marker'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "use case-independent comparisons %'tf'": [
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "catch %'tag' %'action'": [
-        {
-            "block": "doCallCC"
-        },
-        {
-            "block": "reifyScript"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doRun"
-        }
-    ],
-    "throw %'cont'": [
-        {
-            "block": "doRun"
-        }
-    ],
-    "ignore %'x'": [],
-    "\u2710 subset %'pred' %'data' %'catchtag' %'result'": [
-        {
-            "block": "doDeclareVariables"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportKeep"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportListIsEmpty"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportListIsEmpty"
-        },
-        {
-            "block": "reportCDR"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportBoolean"
-        }
-    ],
-    "\u2710 no spaces %'text'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportJoinWords"
-        },
-        {
-            "block": "reportTextSplit"
-        }
-    ],
-    "create %'scope' var %'names'": [
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doForEach"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reportJSFunction"
-        },
-        {
-            "block": "doDeclareVariables"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doForEach"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reportJSFunction"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "does var %'name' exist?": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "\u2710 initialize variables": [
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "doStopThis"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportNewList"
-        }
-    ],
-    "$flash reverse %'list'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "$flash analyze %'data'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "$flash group %'data' by %'fn'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "$flash sort %'data' by %'fn'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "histogram of %'data' from: %'floor' to: %'ceiling' interval: %'interval'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportNewList"
-        }
-    ],
-    "histogram of %'data' grouped by: %'key' from: %'floor' to: %'ceiling' interval: %'interval'": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reifyReporter"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "reportNewList"
-        }
-    ],
-    "fill %'data' key: %'key' from: %'floor' to: %'ceiling' interval: %'interval' with: %'generator'": [
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportNewList"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportCONS"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportCDR"
-        },
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportCONS"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportCDR"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportCONS"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "evaluate"
-        }
-    ],
-    "pipe %'value' $arrowRight %'pipe'": [
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportListIsEmpty"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportCDR"
-        }
-    ],
-    "%'text' $arrowRight lower case": [
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "plot %'data' bars at x: %'left' y: %'bottom' width: %'width' height: %'height'": [
-        {
-            "block": "doDeclareVariables"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "evaluate"
-        },
-        {
-            "block": "reportJSFunction"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reifyPredicate"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportLessThan"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "gotoXY"
-        },
-        {
-            "block": "setSize"
-        },
-        {
-            "block": "down"
-        },
-        {
-            "block": "changeXPosition"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "doWarp"
-        },
-        {
-            "block": "doUntil"
-        },
-        {
-            "block": "reportEquals"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "setSize"
-        },
-        {
-            "block": "changeYPosition"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportDifference"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "setYPosition"
-        },
-        {
-            "block": "setSize"
-        },
-        {
-            "block": "doSetVar"
-        },
-        {
-            "block": "reportCDR"
-        },
-        {
-            "block": "doIfElse"
-        },
-        {
-            "block": "reportGreaterThan"
-        },
-        {
-            "block": "reportListLength"
-        },
-        {
-            "block": "changeXPosition"
-        },
-        {
-            "block": "changeXPosition"
-        },
-        {
-            "block": "reportQuotient"
-        },
-        {
-            "block": "up"
-        },
-        {
-            "block": "doRun"
-        },
-        {
-            "block": "reportJSFunction"
-        }
-    ],
-    "sum %'nums'": [
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportListIsEmpty"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportSum"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportCDR"
-        }
-    ],
-    "product %'nums'": [
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportListIsEmpty"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportProduct"
-        },
-        {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportCDR"
-        }
-    ],
-    "all of %'preds'": [
-        {
             "block": "doIf"
-        },
-        {
-            "block": "reportListIsEmpty"
-        },
-        {
-            "block": "doReport"
-        },
-        {
-            "block": "reportBoolean"
-        },
-        {
-            "block": "doReport"
         },
         {
             "block": "reportAnd"
         },
         {
-            "block": "evaluate"
+            "block": "reportNotEquals"
         },
         {
-            "block": "reportListItem"
+            "block": "reportGreaterThan"
         },
         {
-            "block": "reportCDR"
-        }
-    ],
-    "any of %'preds'": [
-        {
-            "block": "doIf"
-        },
-        {
-            "block": "reportListIsEmpty"
+            "block": "doSetVar"
         },
         {
             "block": "doReport"
@@ -4279,19 +220,308 @@
             "block": "reportBoolean"
         },
         {
+            "block": "doSetVar"
+        },
+        {
+            "block": "doSetVar"
+        },
+        {
+            "block": "doReport"
+        },
+        {
+            "block": "reportBoolean"
+        }
+    ],
+    "ignore %'thing'": [],
+    "%'id' %'input'": [
+        {
+            "block": "doSetVar"
+        },
+        {
+            "block": "doReport"
+        }
+    ],
+    "impossible whirl $nl code %'code' $nl direction %'direction' $nl turn %'turn'": [
+        {
+            "block": "doWarp"
+        },
+        {
+            "block": "doSetVar"
+        },
+        {
+            "block": "reportIfElse"
+        },
+        {
+            "block": "reportEquals"
+        },
+        {
+            "block": "reportListAttribute"
+        },
+        {
+            "block": "reportIfElse"
+        },
+        {
+            "block": "reportAnd"
+        },
+        {
+            "block": "reportIsA"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "reportIsA"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "reportNewList"
+        },
+        {
+            "block": "reportKeep"
+        },
+        {
+            "block": "reifyPredicate"
+        },
+        {
+            "block": "reportIsA"
+        },
+        {
+            "block": "reportKeep"
+        },
+        {
+            "block": "reifyPredicate"
+        },
+        {
+            "block": "reportIsA"
+        },
+        {
+            "block": "reportNewList"
+        },
+        {
+            "block": "reportMap"
+        },
+        {
+            "block": "reifyReporter"
+        },
+        {
+            "block": "reportMonadic"
+        },
+        {
+            "block": "reportNumbers"
+        },
+        {
+            "block": "reportListAttribute"
+        },
+        {
+            "block": "reportIfElse"
+        },
+        {
+            "block": "reportEquals"
+        },
+        {
+            "block": "reportListAttribute"
+        },
+        {
+            "block": "reportListAttribute"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "doSetVar"
+        },
+        {
+            "block": "reportNewList"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "reportMap"
+        },
+        {
+            "block": "reifyReporter"
+        },
+        {
+            "block": "reportIfElse"
+        },
+        {
+            "block": "reportEquals"
+        },
+        {
+            "block": "reportSum"
+        },
+        {
+            "block": "reportBoolean"
+        },
+        {
+            "block": "reportBoolean"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "doForEach"
+        },
+        {
+            "block": "reportListAttribute"
+        },
+        {
+            "block": "doIf"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "setHeading"
+        },
+        {
+            "block": "forward"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "turn"
+        },
+        {
+            "block": "forward"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "turn"
+        },
+        {
+            "block": "forward"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "gotoXY"
+        },
+        {
+            "block": "setHeading"
+        },
+        {
+            "block": "forward"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "turnLeft"
+        },
+        {
+            "block": "forward"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "turnLeft"
+        },
+        {
+            "block": "forward"
+        },
+        {
+            "block": "reportListItem"
+        },
+        {
+            "block": "gotoXY"
+        }
+    ],
+    "binary? %'n'": [
+        {
             "block": "doReport"
         },
         {
             "block": "reportOr"
         },
         {
+            "block": "reportEquals"
+        },
+        {
+            "block": "reportEquals"
+        }
+    ],
+    "%'what' items of %'data' have %'pred'": [
+        {
+            "block": "doReport"
+        },
+        {
+            "block": "reportCombine"
+        },
+        {
+            "block": "reportMap"
+        },
+        {
+            "block": "reportIfElse"
+        },
+        {
+            "block": "reportEquals"
+        },
+        {
+            "block": "reifyPredicate"
+        },
+        {
+            "block": "reportAnd"
+        },
+        {
+            "block": "reportIfElse"
+        },
+        {
+            "block": "reportEquals"
+        },
+        {
+            "block": "reifyPredicate"
+        },
+        {
+            "block": "reportOr"
+        }
+    ],
+    "number %'num' in the fibonacci sequence": [
+        {
+            "block": "doReport"
+        },
+        {
+            "block": "reportIfElse"
+        },
+        {
+            "block": "reportNotEquals"
+        },
+        {
+            "block": "reportModulus"
+        },
+        {
+            "block": "reportIfElse"
+        },
+        {
+            "block": "reportLessThanOrEquals"
+        },
+        {
+            "block": "reportSum"
+        },
+        {
+            "block": "reportDifference"
+        },
+        {
+            "block": "reportDifference"
+        }
+    ],
+    "report error %'msg'": [
+        {
+            "block": "doReport"
+        },
+        {
             "block": "evaluate"
         },
         {
-            "block": "reportListItem"
-        },
-        {
-            "block": "reportCDR"
+            "block": "reportJSFunction"
         }
     ]
 }

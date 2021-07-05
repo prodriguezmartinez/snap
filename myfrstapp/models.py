@@ -14,6 +14,7 @@ class proyectos(models.Model):
     abstraccion = models.IntegerField(null=False, default=0)
     paralelismo = models.IntegerField(null=False, default=0)
     categorias = models.IntegerField(null=False, default=0)
+    datos = models.IntegerField(null=False, default=0)
     interactividad = models.IntegerField(null=False, default=0)
 
 

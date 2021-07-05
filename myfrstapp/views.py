@@ -126,7 +126,10 @@ def analyze(request):
         if request.method=='POST':
             if estudiante:
                 flag_url=True
-                new_proyect=analyze_save_project(request)
+                try:
+                    new_proyect=analyze_save_project(request)
+                except:
+                    return(render(request, 'error_analizar.html'))
                 return(render(request, 'result.html',{'proyecto':new_proyect, 'flag_url':flag_url}))
             else:
                 try:
@@ -137,8 +140,10 @@ def analyze(request):
 
                         print('hola')
                         flag_url=False
-                        user_projects,filename=analyze_save_zip(request)
-                        print('adios')
+                        try:
+                            user_projects,filename=analyze_save_zip(request)
+                        except:
+                            return(render(request, 'error_analizar_zip.html'))
                         return(render(request, 'result.html',{'filename':filename,'proyecto':user_projects,'flag_url':flag_url}))
 
 
@@ -153,7 +158,10 @@ def analyze(request):
         #no estas logeado
         if request.method=='POST':
             flag_url=True
-            level,data,name_proyect = calcular_nivel(request.POST['url'])
+            try:
+                level,data,name_proyect = calcular_nivel(request.POST['url'])
+            except:
+                return(render(request, 'error_analizar.html'))
             print(urllib.parse.unquote(request.POST['url']))
             new_proyect={'url_proyecto':request.POST['url'], 'nivel': level,
             'condicionales':data[0], 'sincronizacion':data[1], 'control_flujo':data[2], 'abstraccion':data[3],'paralelismo':data[4],
@@ -249,7 +257,8 @@ def show_projects(request):
                 if not user_projects:
                     flag_url= True
         else:
-            flag_url= True
+            #flag_url= True
+            return render(request,"please-login.html")
     else:
         if request.method=='POST':
             user_projects =  proyectos.objects.filter(usuario=request.user.username,nombre_zip=request.POST['name_zip'])
@@ -379,14 +388,12 @@ def switch_puntuacion(media):
         return 3
 
 def parse_url(url):
+
     s=url.split('=')
-    #s1='https://snap.berkeley.edu/projects/'
     s1='https://cloud.snap.berkeley.edu/projects/'
     s2=s[1].split('&')[0]
     s3=s[2]
     url=s1+s2+'/'+s3
-    print(url)
-    print(s3)
     return url,s3
 
 def calcular_puntuacion(url):
@@ -766,7 +773,6 @@ def parse_xml(url):
                     elif self.inBlockDef:
                         if name == 'block':
                             self.inBlockCustom=True
-                            print(self.value)
                             try:
                                 self.data[self.value].append({
                                     #'name': self.value,
@@ -782,7 +788,6 @@ def parse_xml(url):
                 elif self.inVariables:
                     try:
                         value = attrs.getValue('name')
-                        print("variables" + value)
                         self.numberVariables=self.numberVariables+1
                         self.data['variables'].append({
                             'variable': value,
@@ -802,8 +807,6 @@ def parse_xml(url):
                 self.inProject=False
                 with open('data.json', 'w') as file:
                     json.dump(self.data, file, indent=4)
-                print(self.data)
-
             elif self.inProject:
                 if name == 'stage':
                     self.instage=False
